@@ -1,6 +1,6 @@
 {
   "name": "isomorphic-webrtc",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "main": "node.js",
   "browser": "browser.js",
@@ -9,7 +9,8 @@
     "yarn-upgrade-all": "^0.5.2"
   },
   "peerDependencies": {
-    "wrtc": "*"
+    "wrtc": "*",
+    "node-webrtc-media-devices": "*"
   },
   "repository": {
     "type" : "git",
