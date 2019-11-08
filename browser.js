@@ -29,5 +29,8 @@ module.exports = {
 
   // https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API#Telephony
   RTCDTMFSender: global.RTCDTMFSender,
-  RTCDTMFToneChangeEvent: global.RTCDTMFToneChangeEvent
+  RTCDTMFToneChangeEvent: global.RTCDTMFToneChangeEvent,
+
+  // others self-defined objects
+  mediaDevices: navigator.mediaDevices
 }
