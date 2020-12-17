@@ -5,15 +5,15 @@
   "main": "node.js",
   "browser": "browser.js",
   "devDependencies": {
-    "standard": "^14.3.0",
-    "yarn-upgrade-all": "^0.5.2"
+    "standard": "^16.0.3",
+    "yarn-upgrade-all": "^0.5.4"
   },
   "peerDependencies": {
-    "wrtc": "*",
-    "node-webrtc-media-devices": "*"
+    "node-webrtc-media-devices": "*",
+    "wrtc": "*"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/tylerlong/isomorphic-webrtc.git"
+    "type": "git",
+    "url": "https://github.com/tylerlong/isomorphic-webrtc.git"
   }
 }
