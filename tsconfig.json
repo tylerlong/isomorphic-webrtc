@@ -6,7 +6,8 @@
       "src/typings",
       "node_modules/@types"
     ],
-    "lib": ["DOM"]
+    "lib": ["DOM"],
+    "esModuleInterop": true
   },
   "include": [
     "src/**/*.ts",
