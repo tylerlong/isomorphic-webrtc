@@ -3,7 +3,7 @@
   "compilerOptions": {
     "outDir": "build",
     "typeRoots": [
-      "src/customTypings",
+      "src/typings",
       "node_modules/@types"
     ],
     "lib": ["DOM"]
